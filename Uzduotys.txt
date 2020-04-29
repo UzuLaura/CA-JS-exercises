@@ -1,0 +1,99 @@
+Užduotys:
+1. Sukurkite kino teatro kainos apskaičiavimo platformą. Joje turi būti vienas input laukelis, kur
+žmogus įrašo savo amžių, o JS apskaičiuoja kainą. Standartinis bilietas – 6eu, iki 16 metų –
+50proc nuolaida, 1/3 nuolaida vyresniems nei 60. Variable turi būti aprašyti viršuj, kad būtų
+lengva keist.
+
+2. Kai kuriose šalyse reikia eiti į kariuomenę, jei tu tarp 18 ir 30, tačiau, jei neturi kriminalinio
+įrašo. Sukurk programą, kuri su input + radio button pasakytų ar tam žmogui gali reikėti eiti į
+kariuomenę.
+
+3. A certain company gives all employees a Christmas bonus of 50 pounds. In addition, it gives
+people it has employed for 10 years or more an extra 50 pounds (making a total of 100
+pounds), and people it has employed for 20 years or more an extra 100 pounds (making a
+total of 150 pounds). Write a program that prompts an employee for his or her number of
+years of employment and then outputs the amount of Christmas bonus, as in the following
+example input/output:
+a. How many years have you been with the company?
+[ 16 ]  input 😊
+You will receive a Christmas bonus of 100 pounds.
+
+4. Create a program that there is a 1 in 15 chance of winning 3 tickets, a 2 in 15 chance of
+winning 2 tickets, and a 4 in 15 chance of winning 1 ticket. You may use if-else statements
+but not switch statements in your solution.
+
+5. Rewrite Exc. 4 using only switch statements and no if-else.
+
+6. Write a program that can determine whether a year entered by the user is a leap year (i.e.
+has 366 days). A year is a leap year if it is divisible by four, except that any year divisible by
+100 is a leap year only if it is also divisible by 400.
+
+7. Create a program so that it repeatedly asks the user to guess the number until the user
+guesses correctly. The program should be able to reproduce the following type of
+input/output:
+a. Guess the number between 1 and 5:
+[ 4 ]
+No, guess again:
+[ 1 ]
+No, guess again:
+[ 3 ]
+Correct - well done!
+
+8. Write a program that asks the user for two whole number Celsius values, and then prints a
+Celsius/Fahrenheit conversion chart for all whole number Celsius values between (and
+including) the two values entered.
+
+9. Write a program which prints a triangle of stars of a height given by the user, as in the
+following example input/output:
+a. Enter the number of lines for the triangle:
+[ 7 ]
+*
+**
+***
+****
+*****
+******
+*******
+
+10. Sukurkite funkciją, į kurią būtų paduotas vietas parametras - n. Jis pasakys kokio dydžio L raidė turi būti (ji sudaryta iš mažų L raidžių ASCII būdų).
+
+t.y. jei kviesite funkciją fn(4), tai turėtų atspaudinti tokį rezultatą:
+L
+L
+L
+L L L L
+
+11. Sukurkite tokią pačią funkciją, bet kad spausdintų I raidę. Vartotojas gali įrašyti tik nelyginį teigiamą skaičių, kitaip išmeta klaidą.
+pvz.:
+I I I I I
+I
+I
+I
+I I I I I
+
+12. Sukurkite input (be mygtuko), į kurį įrašius vardą ir nulipus nuo input (t.y. blur event), vardas atsiras po apačia, tvarkingame sąraše (su kableliais):
+Pvz.: Petras, Jonas, Mantas, Antanas
+
+13. Sukurkite funkciją, kuri priims du paramterus ir grąžins tą parametrą, kuris yra arčiausiai skaičiaus 100.
+Pvz.: fn(101, 81) grąžins 101.
+
+14. Sukurkite HTML (o NE JS) formą su input, kuriame vartotojas įrašys vardą. Kai jis submit'ins formą, naudodami addEventListener (su preventDefault) - paleiskite funkciją. Ši funkciją turės sukurti h2 elementą su tuo vardu ir jį appendint į document.body.
+
+15. Meilės žinutė. Sukurkite funkciją, kuri priims du parametrus - A ir B, kurie bus žmonių vardai. Funkcija turės grąžinti pirmų raidžių kombinaciją su pliusu. T.y. jei paduosi "Petras" ir "Ieva", grąžins "P+I".
+
+16. Visi turi meilužių. Sukurkite funkciją, į kurią padavus array su daug vardų ir pavardžių - atfiltruotų tik tuos, kurių vardas Petras.
+pvz. ["Petras Slekys", "Jonas Kazlauskas", "Petras Petrulis"] grąžins ["Petras Slekys", "Petras Petrulis"]. Jeigu array tik vienas žmogus, tegul tuo pačiu pa'alert'ina "Tu ištikimas/a!"
+
+17. Sukurkite funkciją, į kurią paduosim array su skaičiais. Funkcija turi grąžinti sort'intus skaičius, nuo didžiausio, bet visi neigiami skaičiai turi būti išimti.
+t.y. [-100, -5, 0, 11, 5] grąžins [11, 5, 0]
+
+//
+18. Parašykite funkciją, kuri konvertuos skaičių (sekundes) į valandas, minutes ir sekundes (grąžins stringą gražų: 1h 15min 30sec)
+
+19. Parašykite funkciją, kuri paims array ir grąžins ilgiausią itemą iš to array :)
+pvz. ["aa", "bbb", "c"] grąžins "bbb"
+
+20. Sukurkite programą, kuri turės input'ą. Jį užpildžius - input'o informacija pridės į localstorage. Inputą bus galima pildyt daug kartų. Visi rezultatai atvaizduojami po input'u <ul> blocke.
+
+21. Parašykite funkciją, kuri atvirkščiai kapitalizuos/sumažins raides pateiktam žodžiui.
+pvz: "Petras" pakeis į "pETRAS"

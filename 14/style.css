@@ -1,0 +1,23 @@
+body {
+    width: 80vw;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+input[type=text] {
+    width: 100%;
+}
+
+form {
+    margin-bottom: 10px;
+}
+
+#result > h2 {
+    display: inline-block;
+    width: calc(80vw/3 - 2px);
+    border: 1px solid lightgray;
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 1px;
+}
+
